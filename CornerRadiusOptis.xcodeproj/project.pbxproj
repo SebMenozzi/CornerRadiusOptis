@@ -7,48 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1E744F2285A5BB3005F43D3 /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E744F1285A5BB3005F43D3 /* Operator.swift */; };
+		D1E744F4285A65A9005F43D3 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E744F3285A65A9005F43D3 /* CALayer+Extension.swift */; };
+		D1E744F6285A7E5D005F43D3 /* UIBezierPath+SmoothRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E744F5285A7E5D005F43D3 /* UIBezierPath+SmoothRect.swift */; };
+		D1E744FA285B7C51005F43D3 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E744F9285B7C51005F43D3 /* UIColor+Extensions.swift */; };
 		EA034AF628242618004DA299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034AF528242618004DA299 /* AppDelegate.swift */; };
-		EA034AF828242618004DA299 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034AF728242618004DA299 /* SceneDelegate.swift */; };
 		EA034AFA28242618004DA299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034AF928242618004DA299 /* ViewController.swift */; };
-		EA034AFD28242618004DA299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA034AFB28242618004DA299 /* Main.storyboard */; };
 		EA034AFF28242619004DA299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA034AFE28242619004DA299 /* Assets.xcassets */; };
 		EA034B0228242619004DA299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA034B0028242619004DA299 /* LaunchScreen.storyboard */; };
-		EA034B0D28242619004DA299 /* CornerRadiusOptisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034B0C28242619004DA299 /* CornerRadiusOptisTests.swift */; };
-		EA034B1728242619004DA299 /* CornerRadiusOptisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034B1628242619004DA299 /* CornerRadiusOptisUITests.swift */; };
-		EA034B1928242619004DA299 /* CornerRadiusOptisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034B1828242619004DA299 /* CornerRadiusOptisUITestsLaunchTests.swift */; };
+		EA034B2628242655004DA299 /* SmoothCornerRadiusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA034B2528242655004DA299 /* SmoothCornerRadiusView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EA034B0928242619004DA299 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA034AEA28242617004DA299 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA034AF128242618004DA299;
-			remoteInfo = CornerRadiusOptis;
-		};
-		EA034B1328242619004DA299 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA034AEA28242617004DA299 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA034AF128242618004DA299;
-			remoteInfo = CornerRadiusOptis;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		D1E744F1285A5BB3005F43D3 /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		D1E744F3285A65A9005F43D3 /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		D1E744F5285A7E5D005F43D3 /* UIBezierPath+SmoothRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBezierPath+SmoothRect.swift"; sourceTree = "<group>"; };
+		D1E744F9285B7C51005F43D3 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		EA034AF228242618004DA299 /* CornerRadiusOptis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRadiusOptis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA034AF528242618004DA299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA034AF728242618004DA299 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA034AF928242618004DA299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA034AFC28242618004DA299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA034AFE28242619004DA299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA034B0128242619004DA299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA034B0328242619004DA299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA034B0828242619004DA299 /* CornerRadiusOptisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRadiusOptisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA034B0C28242619004DA299 /* CornerRadiusOptisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusOptisTests.swift; sourceTree = "<group>"; };
-		EA034B1228242619004DA299 /* CornerRadiusOptisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CornerRadiusOptisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA034B1628242619004DA299 /* CornerRadiusOptisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusOptisUITests.swift; sourceTree = "<group>"; };
-		EA034B1828242619004DA299 /* CornerRadiusOptisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusOptisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA034B2528242655004DA299 /* SmoothCornerRadiusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmoothCornerRadiusView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,29 +40,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA034B0528242619004DA299 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA034B0F28242619004DA299 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1E744F7285B79CE005F43D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA034AFE28242619004DA299 /* Assets.xcassets */,
+				EA034B0328242619004DA299 /* Info.plist */,
+				EA034B0028242619004DA299 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D1E744F8285B79D6005F43D3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				EA034AF528242618004DA299 /* AppDelegate.swift */,
+				EA034AF928242618004DA299 /* ViewController.swift */,
+				EA034B2528242655004DA299 /* SmoothCornerRadiusView.swift */,
+				D1E744F1285A5BB3005F43D3 /* Operator.swift */,
+				D1E744F3285A65A9005F43D3 /* CALayer+Extension.swift */,
+				D1E744F5285A7E5D005F43D3 /* UIBezierPath+SmoothRect.swift */,
+				D1E744F9285B7C51005F43D3 /* UIColor+Extensions.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		EA034AE928242617004DA299 = {
 			isa = PBXGroup;
 			children = (
-				EA034AF428242618004DA299 /* CornerRadiusOptis */,
-				EA034B0B28242619004DA299 /* CornerRadiusOptisTests */,
-				EA034B1528242619004DA299 /* CornerRadiusOptisUITests */,
+				D1E744F7285B79CE005F43D3 /* Resources */,
+				D1E744F8285B79D6005F43D3 /* Sources */,
 				EA034AF328242618004DA299 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,41 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				EA034AF228242618004DA299 /* CornerRadiusOptis.app */,
-				EA034B0828242619004DA299 /* CornerRadiusOptisTests.xctest */,
-				EA034B1228242619004DA299 /* CornerRadiusOptisUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EA034AF428242618004DA299 /* CornerRadiusOptis */ = {
-			isa = PBXGroup;
-			children = (
-				EA034AF528242618004DA299 /* AppDelegate.swift */,
-				EA034AF728242618004DA299 /* SceneDelegate.swift */,
-				EA034AF928242618004DA299 /* ViewController.swift */,
-				EA034AFB28242618004DA299 /* Main.storyboard */,
-				EA034AFE28242619004DA299 /* Assets.xcassets */,
-				EA034B0028242619004DA299 /* LaunchScreen.storyboard */,
-				EA034B0328242619004DA299 /* Info.plist */,
-			);
-			path = CornerRadiusOptis;
-			sourceTree = "<group>";
-		};
-		EA034B0B28242619004DA299 /* CornerRadiusOptisTests */ = {
-			isa = PBXGroup;
-			children = (
-				EA034B0C28242619004DA299 /* CornerRadiusOptisTests.swift */,
-			);
-			path = CornerRadiusOptisTests;
-			sourceTree = "<group>";
-		};
-		EA034B1528242619004DA299 /* CornerRadiusOptisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EA034B1628242619004DA299 /* CornerRadiusOptisUITests.swift */,
-				EA034B1828242619004DA299 /* CornerRadiusOptisUITestsLaunchTests.swift */,
-			);
-			path = CornerRadiusOptisUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +104,6 @@
 			productReference = EA034AF228242618004DA299 /* CornerRadiusOptis.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA034B0728242619004DA299 /* CornerRadiusOptisTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA034B1F28242619004DA299 /* Build configuration list for PBXNativeTarget "CornerRadiusOptisTests" */;
-			buildPhases = (
-				EA034B0428242619004DA299 /* Sources */,
-				EA034B0528242619004DA299 /* Frameworks */,
-				EA034B0628242619004DA299 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA034B0A28242619004DA299 /* PBXTargetDependency */,
-			);
-			name = CornerRadiusOptisTests;
-			productName = CornerRadiusOptisTests;
-			productReference = EA034B0828242619004DA299 /* CornerRadiusOptisTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EA034B1128242619004DA299 /* CornerRadiusOptisUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA034B2228242619004DA299 /* Build configuration list for PBXNativeTarget "CornerRadiusOptisUITests" */;
-			buildPhases = (
-				EA034B0E28242619004DA299 /* Sources */,
-				EA034B0F28242619004DA299 /* Frameworks */,
-				EA034B1028242619004DA299 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA034B1428242619004DA299 /* PBXTargetDependency */,
-			);
-			name = CornerRadiusOptisUITests;
-			productName = CornerRadiusOptisUITests;
-			productReference = EA034B1228242619004DA299 /* CornerRadiusOptisUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +116,6 @@
 				TargetAttributes = {
 					EA034AF128242618004DA299 = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					EA034B0728242619004DA299 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = EA034AF128242618004DA299;
-					};
-					EA034B1128242619004DA299 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = EA034AF128242618004DA299;
 					};
 				};
 			};
@@ -220,8 +133,6 @@
 			projectRoot = "";
 			targets = (
 				EA034AF128242618004DA299 /* CornerRadiusOptis */,
-				EA034B0728242619004DA299 /* CornerRadiusOptisTests */,
-				EA034B1128242619004DA299 /* CornerRadiusOptisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +144,6 @@
 			files = (
 				EA034B0228242619004DA299 /* LaunchScreen.storyboard in Resources */,
 				EA034AFF28242619004DA299 /* Assets.xcassets in Resources */,
-				EA034AFD28242618004DA299 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA034B0628242619004DA299 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA034B1028242619004DA299 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,52 +155,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA034AFA28242618004DA299 /* ViewController.swift in Sources */,
+				D1E744F2285A5BB3005F43D3 /* Operator.swift in Sources */,
 				EA034AF628242618004DA299 /* AppDelegate.swift in Sources */,
-				EA034AF828242618004DA299 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA034B0428242619004DA299 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA034B0D28242619004DA299 /* CornerRadiusOptisTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA034B0E28242619004DA299 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA034B1728242619004DA299 /* CornerRadiusOptisUITests.swift in Sources */,
-				EA034B1928242619004DA299 /* CornerRadiusOptisUITestsLaunchTests.swift in Sources */,
+				D1E744F6285A7E5D005F43D3 /* UIBezierPath+SmoothRect.swift in Sources */,
+				D1E744FA285B7C51005F43D3 /* UIColor+Extensions.swift in Sources */,
+				D1E744F4285A65A9005F43D3 /* CALayer+Extension.swift in Sources */,
+				EA034B2628242655004DA299 /* SmoothCornerRadiusView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		EA034B0A28242619004DA299 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EA034AF128242618004DA299 /* CornerRadiusOptis */;
-			targetProxy = EA034B0928242619004DA299 /* PBXContainerItemProxy */;
-		};
-		EA034B1428242619004DA299 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EA034AF128242618004DA299 /* CornerRadiusOptis */;
-			targetProxy = EA034B1328242619004DA299 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		EA034AFB28242618004DA299 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA034AFC28242618004DA299 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA034B0028242619004DA299 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,19 +301,20 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TE7AHNP9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CornerRadiusOptis/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwewqe.CornerRadiusOptis;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.seb.corner-radius-opti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,95 +329,24 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2TE7AHNP9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CornerRadiusOptis/Info.plist;
+				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwewqe.CornerRadiusOptis;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.seb.corner-radius-opti";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		EA034B2028242619004DA299 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwewqe.CornerRadiusOptisTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CornerRadiusOptis.app/CornerRadiusOptis";
-			};
-			name = Debug;
-		};
-		EA034B2128242619004DA299 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwewqe.CornerRadiusOptisTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CornerRadiusOptis.app/CornerRadiusOptis";
-			};
-			name = Release;
-		};
-		EA034B2328242619004DA299 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwewqe.CornerRadiusOptisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CornerRadiusOptis;
-			};
-			name = Debug;
-		};
-		EA034B2428242619004DA299 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = qwewqe.CornerRadiusOptisUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CornerRadiusOptis;
 			};
 			name = Release;
 		};
@@ -575,24 +367,6 @@
 			buildConfigurations = (
 				EA034B1D28242619004DA299 /* Debug */,
 				EA034B1E28242619004DA299 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA034B1F28242619004DA299 /* Build configuration list for PBXNativeTarget "CornerRadiusOptisTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA034B2028242619004DA299 /* Debug */,
-				EA034B2128242619004DA299 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA034B2228242619004DA299 /* Build configuration list for PBXNativeTarget "CornerRadiusOptisUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA034B2328242619004DA299 /* Debug */,
-				EA034B2428242619004DA299 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "17C59B31-5230-45E1-AF82-8029A2179EED"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72552346-0817-4739-9965-B46FF3609762"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "createCornerViewImage(cornerRadius:cornerRadiusWithFactor:forSize:backgroundColor:foregroundContext:opaque:offset:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63DD8EAD-6BEF-4021-B004-274287D17190"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "createCornerViewImage(cornerRadius:cornerRadiusWithFactor:forSize:backgroundColor:foregroundContext:opaque:offset:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "63DD8EAD-6BEF-4021-B004-274287D17190 - 7cfd094f7a08ece8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIGraphicsImageRendererContext) -&gt; () in CornerRadiusOptis.createCornerViewImage(cornerRadius: CoreGraphics.CGFloat, forSize: __C.CGSize, backgroundColor: Swift.Optional&lt;__C.UIColor&gt;, foregroundContext: CornerRadiusOptis.ForegroundContext, opaque: Swift.Bool, offset: __C.CGPoint) -&gt; __C.UIImage"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "63DD8EAD-6BEF-4021-B004-274287D17190 - 7cfd094f7a08ece8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIGraphicsImageRendererContext) -&gt; () in CornerRadiusOptis.createCornerViewImage(cornerRadius: CoreGraphics.CGFloat, forSize: __C.CGSize, backgroundColor: Swift.Optional&lt;__C.UIColor&gt;, foregroundContext: CornerRadiusOptis.ForegroundContext, opaque: Swift.Bool, offset: __C.CGPoint) -&gt; __C.UIImage"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0D7E3B4D-5B69-45CB-9BFE-29BC17FA538F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B0656450-9407-4309-B4AA-3D3109D87330"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
+            landmarkName = "layoutSubviews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15D59E17-61BC-4A2D-9ACF-1D56221E291A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "15D59E17-61BC-4A2D-9ACF-1D56221E291A - eeefd4da88a287c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CornerRadiusOptis.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CornerRadiusOptis.ViewController"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "15D59E17-61BC-4A2D-9ACF-1D56221E291A - d4f13b421fa61e4f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CornerRadiusOptis.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CornerRadiusOptis.ViewController"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "244">
+               </Location>
+               <Location
+                  uuid = "15D59E17-61BC-4A2D-9ACF-1D56221E291A - 167fb7700030d574"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CornerRadiusOptis.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CornerRadiusOptis.ViewController&gt;"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "15D59E17-61BC-4A2D-9ACF-1D56221E291A - 8c46d54d269d50a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CornerRadiusOptis.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CornerRadiusOptis.ViewController&gt;"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "15D59E17-61BC-4A2D-9ACF-1D56221E291A - b54f548ca15a2cb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CornerRadiusOptis.ViewController.__deallocating_deinit"
+                  moduleName = "CornerRadiusOptis"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/charly/Desktop/CornerRadiusOptis/CornerRadiusOptis/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09791B70-DD13-4E33-8C70-1EDDDE93D795"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "updateContentLayers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2FEF8BAE-CA04-4C16-955C-6E566E4B915B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
+            landmarkName = "updateContentLayers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BCE130B-B081-4CEF-9FC4-F5BC7A926E90"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "createCornerViewImage(cornerRadius:cornerRadiusWithFactor:forSize:backgroundColor:foregroundContext:opaque:offset:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4498B226-CA88-44D5-819F-DA4D472725C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "createCornerViewImage(cornerRadius:cornerRadiusWithFactor:forSize:backgroundColor:foregroundContext:opaque:offset:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FDD8A3C-7CA8-4EAB-9E4D-C79FA923A958"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "createImageWithPattern(pattern:size:isOpaque:offset:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E41E7706-C2EE-4830-A667-23CA1272F331"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CornerRadiusOptis/PerformanceCornerRadiusView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "createImageWithPattern(pattern:size:isOpaque:offset:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
